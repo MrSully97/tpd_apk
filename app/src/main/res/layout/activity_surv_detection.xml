@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".SurvDetection">
+
+    <Button
+        android:id="@+id/correlationBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Correlation Mode"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/collectBut" />
+
+    <Button
+        android:id="@+id/targetAreaBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Target/Blue Force Area"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correlationBut" />
+
+    <Button
+        android:id="@+id/reportBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="View/Download Reports"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/targetAreaBut" />
+
+    <Button
+        android:id="@+id/indiaBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="India Grabber/HS2.0 Mode"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reportBut" />
+
+    <Button
+        android:id="@+id/shutdownBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="ShutDown"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indiaBut" />
+
+    <Button
+        android:id="@+id/goBackBut"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:background="@android:drawable/ic_menu_revert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="248dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="56dp"
+        android:text="Surveillance Detection Mode"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mainBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Main Page"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <Button
+        android:id="@+id/collectBut"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Collect/Survey Mode"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainBut" />
+</androidx.constraintlayout.widget.ConstraintLayout>
