@@ -57,59 +57,44 @@
         android:hint="File Name"
         android:inputType="textPersonName"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/submitBut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/gpsBut"
-        android:layout_width="258dp"
-        android:layout_height="75dp"
-        android:hapticFeedbackEnabled="false"
-        android:text="Quick Check GPS popup"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/stopBut"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/submitBut" />
-
-    <Button
-        android:id="@+id/stopBut"
-        android:layout_width="258dp"
-        android:layout_height="75dp"
-        android:hapticFeedbackEnabled="false"
-        android:text="Stop Collection"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/reportBut"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gpsBut" />
-
-    <Button
         android:id="@+id/reportBut"
         android:layout_width="263dp"
         android:layout_height="75dp"
+        android:layout_marginTop="8dp"
         android:hapticFeedbackEnabled="false"
         android:text="Go to Survey/Collection Reports Area"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stopBut" />
 
     <Button
-        android:id="@+id/submitBut"
-        android:layout_width="258dp"
+        android:id="@+id/stopBut"
+        android:layout_width="263dp"
         android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:hapticFeedbackEnabled="false"
+        android:text="Stop Collection"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gpsBut" />
+
+    <Button
+        android:id="@+id/submitBut"
+        android:layout_width="268dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
         android:hapticFeedbackEnabled="false"
         android:text="Submit Filename/Start Collection"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/gpsBut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,5 +128,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/gpsBut"
+        android:layout_width="263dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:text="QUICK CHECK GPS POPUP"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitBut" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/gpsBut"
+        android:id="@+id/correlationBut"
         android:layout_width="258dp"
         android:layout_height="75dp"
         android:layout_marginTop="40dp"

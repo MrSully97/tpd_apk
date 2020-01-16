@@ -29,12 +29,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/but1"
+                    android:id="@+id/collectSurvBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_data"
                     android:drawablePadding="-5dp"
                     android:text="Collect/Survey Mode"
@@ -42,12 +42,12 @@
                     android:textSize="12dp" />
 
                 <Button
-                    android:id="@+id/gpsBut"
+                    android:id="@+id/correlationBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_correlation"
                     android:drawablePadding="-5dp"
                     android:text="Correlation Mode"
@@ -60,7 +60,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_hotspot"
                     android:drawablePadding="-20dp"
                     android:text="HS2.0 Mode"
@@ -85,7 +85,7 @@
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_surveillance"
                     android:drawablePadding="-14dp"
                     android:text="Surveillance Detection Mode"
@@ -93,28 +93,28 @@
                     android:textSize="11dp" />
 
                 <Button
-                    android:id="@+id/but5"
+                    android:id="@+id/gpsBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_geofence"
                     android:drawablePadding="-12dp"
-                    android:text="GPS Quick Check"
-                    android:textColor="@android:color/background_light" />
+                    android:text="GPS QUICK CHECK" />
 
                 <Button
-                    android:id="@+id/but6"
+                    android:id="@+id/blueForceBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_surveillance"
                     android:drawablePadding="-12dp"
                     android:text="Target/Blue Force Area"
                     android:textColor="@android:color/background_light" />
+
             </LinearLayout>
 
         </TableRow>
@@ -130,12 +130,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/but7"
+                    android:id="@+id/downReportsBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_report"
                     android:drawablePadding="-10dp"
                     android:text="Download Reports"
@@ -147,7 +147,7 @@
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_report"
                     android:drawablePadding="2dp"
                     android:text="Quick View Reports on Device"
@@ -155,13 +155,13 @@
                     android:textSize="11dp" />
 
                 <Button
-                    android:id="@+id/but14"
+                    android:id="@+id/orgFilesBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_data"
                     android:drawablePadding="-9dp"
                     android:text="Organize Files"
@@ -182,12 +182,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/but9"
+                    android:id="@+id/organizeRepBut"
                     android:layout_width="100dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_data"
                     android:drawablePadding="4dp"
                     android:text="Organize Reports"
@@ -199,7 +199,7 @@
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_tpms"
                     android:drawablePadding="-14dp"
                     android:text="TPMS"
@@ -211,7 +211,7 @@
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_sim"
                     android:drawablePadding="-13dp"
                     android:text="IMSI"
@@ -237,7 +237,7 @@
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_shutdown"
                     android:text="Shutdown"
                     android:textColor="@android:color/background_light" />
@@ -248,10 +248,11 @@
                     android:layout_height="90dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@drawable/circle_button"
                     android:drawableTop="@mipmap/ic_skull"
                     android:text="Zeroize"
                     android:textColor="@android:color/background_light" />
+
             </LinearLayout>
 
         </TableRow>

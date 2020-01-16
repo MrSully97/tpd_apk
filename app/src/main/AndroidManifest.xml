@@ -21,22 +21,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.G3Tech.PileDriver.SurvDetection"></activity>
-        <activity android:name="com.G3Tech.PileDriver.HS2_0Mode" />
-        <activity android:name="com.G3Tech.PileDriver.surveyReportArea" />
-        <activity android:name="com.G3Tech.PileDriver.stop_collection" />
-        <activity android:name="com.G3Tech.PileDriver.CollectionArea" />
-        <activity android:name="com.G3Tech.PileDriver.Correlation_AreaTool" />
-        <activity android:name="com.G3Tech.PileDriver.Collect_SurveryTool" />
-        <activity android:name="com.G3Tech.PileDriver.SplashScreen">
+        <activity android:name=".manageSurvReports"></activity>
+        <activity android:name=".manageCorrReports" />
+        <activity android:name=".organizeReports" />
+        <activity android:name=".organizeFiles" />
+        <activity android:name=".downloadReports" />
+        <activity android:name=".BlueForceArea" />
+        <activity android:name=".SurvDetection" />
+        <activity android:name=".HS2_0Mode" />
+        <activity android:name=".surveyReportArea" />
+        <activity android:name=".stop_collection" />
+        <activity android:name=".CollectionArea" />
+        <activity android:name=".Correlation_AreaTool" />
+        <activity android:name=".Collect_SurveryTool" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.G3Tech.PileDriver.browserActivity" />
-        <activity android:name="com.G3Tech.PileDriver.MainActivity">
+        <activity android:name=".browserActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

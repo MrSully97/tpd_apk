@@ -23,7 +23,7 @@
             android:minHeight="60dp">
 
             <Button
-                android:id="@+id/but1"
+                android:id="@+id/collectSurvBut"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="10dp"
@@ -32,7 +32,7 @@
                 android:text="Homepage" />
 
             <Button
-                android:id="@+id/gpsBut"
+                android:id="@+id/correlationBut"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="10dp"

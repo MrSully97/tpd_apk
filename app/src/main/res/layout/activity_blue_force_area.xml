@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".BlueForceArea">
+
+    <Button
+        android:id="@+id/goBackBut"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/ic_menu_revert"
+        app:layout_constraintEnd_toStartOf="@+id/titleText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="248dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="82dp"
+        android:text="Target/Blue Area"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addTargetBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="17dp"
+        android:text="Add Target"
+        app:layout_constraintEnd_toStartOf="@+id/removeTargetBut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <Button
+        android:id="@+id/addBlueListBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:text="Add to Blue Force List"
+        app:layout_constraintEnd_toStartOf="@+id/removeBlueListBut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTargetBut" />
+
+    <Button
+        android:id="@+id/removeTargetBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="27dp"
+        android:text="Remove Target"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addTargetBut"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <Button
+        android:id="@+id/removeBlueListBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="27dp"
+        android:text="Remove from Blue Force List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addBlueListBut"
+        app:layout_constraintTop_toBottomOf="@+id/removeTargetBut" />
+
+    <Button
+        android:id="@+id/viewDeckBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:text="View Target Deck"
+        app:layout_constraintEnd_toStartOf="@+id/viewBlueListBut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBlueListBut" />
+
+    <Button
+        android:id="@+id/viewBlueListBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="27dp"
+        android:text="View Blue Force List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/viewDeckBut"
+        app:layout_constraintTop_toBottomOf="@+id/removeBlueListBut" />
+
+    <Button
+        android:id="@+id/importDeckBut"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:text="Import Target Deck"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewDeckBut" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="27dp"
+        android:text="Import Blue Force List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/importDeckBut"
+        app:layout_constraintTop_toBottomOf="@+id/viewBlueListBut" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
-    android:backgroundTint="#085C91"
+    android:background="@drawable/mainback"
     tools:context=".SplashScreen">
 
     <ProgressBar
@@ -15,6 +14,7 @@
         android:layout_height="wrap_content"
         android:max="500"
         android:progress="0"
+        android:progressTint="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -24,16 +24,17 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="176dp"
-        android:layout_height="61dp"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:background="@android:color/background_dark"
         android:text="PileDriver"
         android:textAlignment="center"
-        android:textSize="40dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="60sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
+        app:layout_constraintVertical_bias="0.819" />
 </androidx.constraintlayout.widget.ConstraintLayout>

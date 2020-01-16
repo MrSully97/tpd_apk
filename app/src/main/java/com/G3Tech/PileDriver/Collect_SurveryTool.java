@@ -49,6 +49,7 @@ public class Collect_SurveryTool extends AppCompatActivity implements OnClickLis
 
     public void onClick(View v){
         switch (v.getId()) {
+
             case R.id.goBackBut:
                 finish();
                 break;
